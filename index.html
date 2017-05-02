@@ -15,6 +15,10 @@
   const recognition = new SpeechRecognition();
   recognition.interimResults = true;    // this option cause speech is populated in real time as you speak
 
+  let p = document.createElement('p');
+  const words = document.querySelector('.words');
+  words.appendChild(p);
+
 
 </script>
 
