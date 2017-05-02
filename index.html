@@ -12,6 +12,9 @@
 <script>
   window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
+  const recognition = new SpeechRecognition();
+  recognition.interimResults = true;    // this option cause speech is populated in real time as you speak
+
 
 </script>
 
